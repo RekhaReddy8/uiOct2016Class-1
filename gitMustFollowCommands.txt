@@ -34,7 +34,8 @@ git status
 git add .
 git commit -m "name the changes made"
 git push origin master
-
-
-
+---------------
+for path:
+C:\Program Files\Git\bin;
+--------------
 
