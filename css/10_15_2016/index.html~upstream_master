@@ -8,7 +8,7 @@
         <title>DMV New License Form</title>
 
         <!--this is external style-->
-        <link href="rajesh.css" rel="stylesheet"/>
+        <link href="styles.css" rel="stylesheet"/>
     </head>
 
     <!--body of the web page-->
@@ -20,14 +20,14 @@
         <article>
 
             <!--page header-->
-            <header id="main-heading">
+            <header>
                 <h1>Welcome to my website!</h1>
             </header>
 
             <!--main body of the page-->
-            <section id="main-section">
+            <section>
                 <article>
-                    <header id="nav-heading">
+                    <header>
                         <!--page naviagation-->
                         <nav>
                             <ul>
@@ -43,38 +43,37 @@
                                 <li>
                                     <a href="https://www.google.com/shopping">Shopping</a>
                                 </li>
+                                <li>
+                                    <a href="srikar.html">Open Srikar</a>
+                                </li>
                             </ul>
-
                         </nav>
                     </header>
                     <section>
                         <!--form for new license in dmv-->
                         <form name="newLicenseForm">
                             <!--First Name-->
-                            <div>
-                                <input type="text" id="firstName" name="fName"/>
-                                <label for="firstName">Enter your First Name</label>
+                            <div class="container">
+                                <label for="firstName">Applicant's First Name:</label>
+                                <input type="text" id="firstName" name="fName" placeholder="Enter your First Name"/>
                             </div>
                             <br />
-
                             <!--Last Name-->
-                            <div>
-                                <input type="text" id="lastName" name="lName"/>
-                                <label for="lastName">Enter your Last Name</label>
+                            <div class="container">
+                                <label for="lastName">Applicant's Last Name:</label>
+                                <input type="text" id="lastName" name="lName" placeholder="Enter your Last Name"/>
                             </div>
                             <br />
-
                             <!--Phone Number-->
                             <div>
-                                <input type="text" id="phoneNumber" name="phoneNumber" />
-                                <label for="phoneNumber">Enter your Phone Number</label>
+                                <label for="phoneNumber">Applicant's Phone Number:</label>
+                                <input type="text" id="phoneNumber" name="phoneNumber" placeholder="Enter your Phone Number" />
                             </div>
                             <br />
-
                             <!--Gender-->
                             <div>
                                 <label for="gender">Applicant's Gender:</label>
-                                <fieldset id="gender">
+                                <div id="gender">
                                     <!--male-->
                                     <label for="male">Male:</label>
                                     <input type="radio" id="male" name="gender" value="Male"/>
@@ -82,16 +81,14 @@
                                     <!--female-->
                                     <label for="female">Female:</label>
                                     <input type="radio" id="female" name="gender" value="Female"/>
-                                </fieldset>
+                                </div>
                             </div>
                             <br />
-
                             <!--senior citizen-->
                             <div class="container">
                                 <label for="seniorCitizen">Is applicant a senior citizen?</label>
                                 <input type="checkbox" id="seniorCitizen" name="seniorCitizen" data-srikar="viswa"/>
                             </div>
-
                             <!--submit button-->
                             <button type="submit" id="submit">
                                 <span>Submit</span>
@@ -101,25 +98,12 @@
                                 <span>Cancel</span>
                             </button>
                         </form>
-						<div>
-                            <p>This is para1-1</p>
-                            <span>This is para1-2</span>
-                            <p>This is para1-3</p>
-                        </div>
-						<div>
-                            <p>This is para2-1</p>
-                        </div>
-
                     </section>
                     <footer></footer>
                 </article>
             </section>
             <!--footer of the page-->
-            <footer id="main-footer">
-				<p>Copyright © 2016 The Example Company</p>
-				<p><a href="about.html">About</a> -
-				<a href="policy.html">Privacy Policy</a> -
-				<a href="contact.html">Contact Us</a></p>
+            <footer>
                 I'm at the bottom
             </footer>
         </article>
