@@ -7,6 +7,12 @@ var y=5.6;
 var deposite=true;
 var checking=null;
 var p=undefined;
-
 console.log(x);
-console.log(y,desposite);
+x='sri';
+y=5.5;
+console.log(x);
+x='thanks';
+console.log(x);
+
+console.log(y);
+
