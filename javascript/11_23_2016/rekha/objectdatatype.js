@@ -17,6 +17,7 @@ var y={
 
     }
 };
+
 //for data update which is given in the above
 //this is dot notation
 x.lastname='sangeetha';
