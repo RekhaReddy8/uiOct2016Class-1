@@ -1,4 +1,4 @@
-er34333(function(){
+(function(){
 
     // this class is now an object that can be reused any number of times
     function x(){
@@ -24,5 +24,5 @@ er34333(function(){
     var test = z;
     test.firstName = 'John';
 
-    console.log(z);
+    //console.log(z);
 })();
